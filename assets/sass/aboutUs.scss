@@ -1,0 +1,22 @@
+#aboutUs{
+  padding: 140px 0;
+  .about-us{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 570px);
+    grid-gap: 30px;
+    &__text{
+      h2{
+        justify-content: flex-start;
+        margin-left: 0;
+        margin-bottom: 22px;
+      }
+      p{
+        width: 470px;
+        line-height: 21px;
+        font-size: 18px;
+        color: #555555;
+      }
+    }
+  }
+}
