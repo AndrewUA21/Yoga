@@ -1,5 +1,10 @@
 header{
   padding: 24px 0;
+  background: #ffffff;
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  width: 100%;
   nav{
     display: flex;
     justify-content: center;
