@@ -1,0 +1,77 @@
+#shop{
+  position: relative;
+  padding: 100px 0 0;
+  background-image: url("/assets/img/lotos.png");
+  background-repeat: no-repeat;
+  background-position: bottom -50px right 0;
+  .shop__cart{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 28px;
+    &__item{
+      border-radius: 10px;
+      -webkit-box-shadow: 0px 0px 8px 0px rgba(102,102,102,1);
+      -moz-box-shadow: 0px 0px 8px 0px rgba(102,102,102,1);
+      box-shadow: 0px 0px 8px 0px rgba(102,102,102,1);
+      margin-bottom: 100px;
+     &__header{
+        background: #5b6ceb;
+       border-radius: 10px 10px 0 0;
+        padding: 50px 0;
+       &__text{
+         font-size: 68px;
+         line-height: 76px;
+         color: #ffffff;
+         font-weight: 700;
+         font-family: "Open Sans";
+         text-align: center;
+         &__month{
+         font-size: 18px;
+         line-height: 24px;
+         color: #ffffff;
+         font-weight: 700;
+         font-family: "Open Sans";
+       }
+         &__currency{
+         font-size: 32px;
+         line-height: 36px;
+         color: #ffffff;
+         font-weight: 700;
+         font-family: "Open Sans";
+       }
+       }
+      }
+      &__body{
+        padding: 40px 50px;
+        background: #ffffff;
+        &__list{
+          &__item{
+            margin-bottom: 40px;
+            text-align: center;
+            h5{
+              text-align: center;
+              font-size: 18px;
+              line-height: 24px;
+              color: #555555;
+              font-weight: 400;
+              font-family: "Open Sans";
+            }
+            .btn__buy_now{
+              border-radius: 20px;
+              padding: 14px 50px;
+              text-align: center;
+              background: #5b6ceb;
+              font-size: 18px;
+              line-height: 24px;
+              color: #ffffff;
+              font-weight: 600;
+              font-family: "Open Sans";
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
