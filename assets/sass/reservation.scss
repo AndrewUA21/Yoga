@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   padding: 98px 0 110px;
   .reservation__wrapp{
+    margin-top: 112px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2, 1fr);
@@ -60,6 +61,7 @@
     &__text{
       margin: 51px 0 0 61px;
       h1{
+        font-weight: bold;
         font-size: 48px;
         color: #ffffff;
         font-family: 'Open Sans', sans-serif;
@@ -73,6 +75,11 @@
         color: #ffffff;
       }
     }
+  }
+  .error{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
   }
 }
 

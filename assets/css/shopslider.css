@@ -1,0 +1,85 @@
+#shop__slider {
+  padding-bottom: 200px;
+  position: relative; }
+  #shop__slider .wrapp__slider {
+    display: flex;
+    position: relative;
+    padding: 34px 60px 44px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 8px 0px #666666;
+    -moz-box-shadow: 0px 0px 8px 0px #666666;
+    box-shadow: 0px 0px 8px 0px #666666; }
+    #shop__slider .wrapp__slider .fade__avatar {
+      padding: 12px;
+      border: 1px solid #d7d7d7;
+      border-radius: 50%;
+      margin-right: 86px; }
+    #shop__slider .wrapp__slider .fade__avatar:after {
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 75px;
+      background: #d7d7d7;
+      bottom: 52px;
+      margin-left: 88px; }
+    #shop__slider .wrapp__slider .fade__about {
+      position: relative; }
+      #shop__slider .wrapp__slider .fade__about p {
+        width: 650px;
+        font-size: 14px;
+        line-height: 22px;
+        color: #555555;
+        font-weight: 400;
+        font-style: italic;
+        font-family: "Open Sans", italic;
+        margin: 3px 58px 30px 0px; }
+      #shop__slider .wrapp__slider .fade__about .quotes {
+        font-size: 60px;
+        line-height: 22px;
+        color: #5b6ceb;
+        font-weight: 400;
+        font-family: "Open Sans" , sans-serif; }
+      #shop__slider .wrapp__slider .fade__about .open {
+        position: absolute;
+        left: -52px;
+        top: -17px; }
+      #shop__slider .wrapp__slider .fade__about .close {
+        position: absolute;
+        right: -10px;
+        top: 80px; }
+      #shop__slider .wrapp__slider .fade__about h6 {
+        font-size: 14px;
+        line-height: 22px;
+        color: #777777;
+        font-weight: 400;
+        font-family: "Open Sans"; }
+      #shop__slider .wrapp__slider .fade__about h4 {
+        font-size: 14px;
+        line-height: 22px;
+        color: #5b6ceb;
+        font-weight: 400;
+        font-family: "Open Sans";
+        font-weight: bold; }
+    #shop__slider .wrapp__slider .preview {
+      position: absolute;
+      display: flex;
+      bottom: -34px;
+      left: 31%;
+      align-items: center; }
+      #shop__slider .wrapp__slider .preview img {
+        border: 1px solid #d7d7d7;
+        border-radius: 50%;
+        margin-right: 14px; }
+      #shop__slider .wrapp__slider .preview h4 {
+        font-size: 14px;
+        line-height: 22px;
+        color: #555555;
+        font-weight: 700;
+        font-family: "Open Sans"; }
+      #shop__slider .wrapp__slider .preview h6 {
+        font-size: 14px;
+        line-height: 22px;
+        color: #555555;
+        font-weight: 400;
+        font-family: "Open Sans"; }

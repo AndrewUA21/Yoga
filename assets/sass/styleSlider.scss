@@ -1,0 +1,28 @@
+#shop__slider{
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 98%;
+    width: auto;
+    margin-top: -22px;
+  }
+  .prev {
+    left: 286px;
+  }
+  .next {
+    right: 598px;
+  }
+
+  #dots{
+    position: absolute;
+    text-align: center;
+    right: 13%;
+    display: flex;
+    flex-direction: column;
+    top: 10%;
+    .dots__color{
+      background: #5b6ceb;
+      margin: 10px 0;
+    }
+  }
+}

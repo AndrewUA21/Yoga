@@ -1,0 +1,101 @@
+#shop__slider{
+  padding-bottom: 200px;
+  position: relative;
+  .wrapp__slider{
+    display: flex;
+    position: relative;
+    padding: 34px 60px 44px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(102,102,102,1);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(102,102,102,1);
+    box-shadow: 0px 0px 8px 0px rgba(102,102,102,1);
+    .fade__avatar{
+      padding: 12px;
+      border: 1px solid #d7d7d7;
+      border-radius: 50%;
+      margin-right: 86px;
+    }
+    .fade__avatar:after{
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 75px;
+      background: #d7d7d7;
+      bottom: 52px;
+      margin-left: 88px;
+
+    }
+    .fade__about{
+      position: relative;
+      p{
+        width: 650px;
+        font-size: 14px;
+        line-height: 22px;
+        color: #555555;
+        font-weight: 400;
+        font-style: italic;
+        font-family: "Open Sans", italic;
+        margin: 3px 58px 30px 0px
+      }
+      .quotes{
+        font-size: 60px;
+        line-height: 22px;
+        color: #5b6ceb;
+        font-weight: 400;
+        font-family: "Open Sans" , sans-serif;
+      }
+      .open{
+        position: absolute;
+        left: -52px;
+        top: -17px;
+      }
+      .close{
+        position: absolute;
+        right: -10px;
+        top: 80px;
+      }
+      h6{
+        font-size: 14px;
+        line-height: 22px;
+        color: #777777;
+        font-weight: 400;
+        font-family: "Open Sans";
+      }
+      h4{
+        font-size: 14px;
+        line-height: 22px;
+        color: #5b6ceb;
+        font-weight: 400;
+        font-family: "Open Sans";
+        font-weight: bold;
+      }
+    }
+   .preview{
+     position: absolute;
+     display: flex;
+     bottom: -34px;
+     left: 31%;
+     align-items: center;
+     img{
+       border: 1px solid #d7d7d7;
+       border-radius: 50%;
+       margin-right: 14px;
+     }
+     h4{
+       font-size: 14px;
+       line-height: 22px;
+       color: #555555;
+       font-weight: 700;
+       font-family: "Open Sans";
+     }
+     h6{
+       font-size: 14px;
+       line-height: 22px;
+       color: #555555;
+       font-weight: 400;
+       font-family: "Open Sans";
+     }
+   }
+  }
+}

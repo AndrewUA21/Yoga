@@ -1,4 +1,12 @@
 @font-face {
   font-family: Script;
-  src: local(FREESCPT), url(/assets/fonts/FREESCPT.TTF);
+  src: local(FREESCPT),
+  url(/assets/fonts/FREESCPT.TTF);
+}
+
+@font-face {
+  font-family: Champagne;
+  src: local("Champagne_&_Limousines_Bold"),
+  url(/assets/fonts/Champagne_&_Limousines_Bold.ttf);
+  font-weight: bold;
 }

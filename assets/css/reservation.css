@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   padding: 98px 0 110px; }
   #reservation .reservation__wrapp {
+    margin-top: 112px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2, 1fr);
@@ -52,6 +53,7 @@
     #reservation .reservation__wrapp__text {
       margin: 51px 0 0 61px; }
       #reservation .reservation__wrapp__text h1 {
+        font-weight: bold;
         font-size: 48px;
         color: #ffffff;
         font-family: 'Open Sans', sans-serif;
@@ -62,6 +64,10 @@
         font-family: Script;
         font-size: 40px;
         color: #ffffff; }
+  #reservation .error {
+    color: red;
+    font-size: 16px;
+    font-weight: bold; }
 
 #reservation:before {
   position: absolute;

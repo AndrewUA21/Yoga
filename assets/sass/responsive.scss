@@ -1,0 +1,263 @@
+
+@media only screen and (max-width: 1700px) {
+  #shop__slider #dots {
+    right: 10%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  #shop__slider #dots {
+    right: 6%;
+  }
+}
+
+
+@media only screen and (max-width: 1450px) {
+  #shop__slider #dots {
+    right: 2%;
+  }
+  #reservation {
+    padding: 138px 0 110px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  #shop__slider #dots {
+    right: 0%;
+  }
+  #shop__slider .wrapp__slider .fade__about .close {
+    right: 60px;
+  }
+  #shop__slider .prev {
+    left: 220px;
+  }
+  #shop__slider .next {
+    right: 420px;
+  }
+  .container {
+    width: 992px;
+  }
+  #shop__slider .wrapp__slider .fade__about p {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .container {
+    width: 860px;
+  }
+
+  #aboutUs{
+    .about-us {
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+    }
+  }
+
+  #aboutUs .about-us__text h2 {
+    justify-content: center;
+  }
+  #aboutUs .about-us__text p {
+    width: 100%;
+  }
+  #elements .elements__list {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+  .reservation__wrapp{
+    padding: 100px 0 0 0;
+  }
+
+  #shop__slider #dots {
+    right: 2%;
+  }
+  footer .footer {
+    grid-template-columns: 1fr;
+
+    .footer__header {
+      text-align: center;
+    }
+
+    .footer__contact__list__item {
+    }
+  }
+  #shop__slider #dots {
+    right: 2%;
+  }
+
+  #reservation{
+    padding: 36px 0 20px;
+  }
+
+  #blog .blog__wrapp,
+  #shop .shop__cart {
+    grid-template-columns:  1fr;
+  }
+
+  #shop__slider .prev {
+    left: 164px;
+  }
+  #shop__slider .next {
+    right: 320px;
+  }
+}
+
+
+@media only screen and (max-width: 960px) {
+  .container {
+    width: 780px;
+  }
+  header nav .nav__list #logo {
+    margin: 0 70px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .container {
+    width: 680px;
+  }
+  #shop__slider .prev {
+    left: 50px;
+  }
+  #shop__slider .next {
+    right: 160px;
+  }
+  #reservation .reservation__wrapp__text h1 {
+    font-size: 21px;
+    line-height: 28px;
+  }
+  #shop__slider .wrapp__slider .fade__about .close {
+    top: 122px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .container {
+    width: 540px;
+  }
+  #reservation .reservation__wrapp {
+    grid-template-columns:  1fr;
+  }
+  #reservation .reservation__wrapp__form {
+       justify-content: center;
+  }
+  #reservation .reservation__wrapp__text h1,
+  #reservation .reservation__wrapp__text h4{
+    text-align: center;
+  }
+  header nav .nav__list #logo {
+    margin: 0 30px;
+  }
+  #blog,
+  #aboutUs {
+    padding: 40px 0;
+  }
+  #shop__slider .wrapp__slider .fade__about .close {
+    top: 240px;
+     right: -32px;
+  }
+  #reservation .reservation__wrapp__text {
+     margin: 0;
+   }
+}
+@media only screen and (max-width: 680px) {
+  .container {
+    width: 480px;
+  }
+  #shop__slider .wrapp__slider {
+   flex-direction: column;
+  }
+  #shop__slider .wrapp__slider .fade__about .close {
+    top: 112px;
+  }
+  #shop__slider #dots {
+    right: 5%;
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .container {
+    width: 320px;
+  }
+  #shop__slider .next {
+    right: 0;
+  }
+  #shop__slider .prev {
+    left: 0;
+  }
+  #shop__slider .wrapp__slider .fade__about .close {
+    bottom: 0;
+  }
+  header nav .nav__list #logo {
+    margin: 0 2px;
+  }
+  header nav .nav__list .nav__list__item {
+    margin: 0 10px;
+  }
+  header nav .nav__list .nav__list__item a {
+    font-size: 14px;
+  }
+  #blog .blog__wrapp__items {
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  #shop__slider .wrapp__slider .fade__avatar {
+    padding: 12px;
+    border: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  #shop__slider .wrapp__slider .fade__avatar:after {
+    display: none;
+  }
+  #shop__slider .wrapp__slider .fade__about .close {
+    top: 100%;
+  }
+  footer .footer {
+    padding: 20px 0;
+  }
+  footer .footer .footer__contact__list {
+    grid-template-columns: 1fr;
+  }
+  .footer__header {
+    margin: 20px 0;
+  }
+}
+
+
+@media only screen and (max-width: 460px) {
+  header nav .nav__list #logo a {
+    font-size: 16px;
+  }
+  header nav .nav__list .nav__list__item a {
+    font-size: 12px;
+  }
+  header nav .nav__list .nav__list__item {
+    margin: 0 4px;
+  }
+  #logo {
+    img{
+      width: 40px;
+    }
+  }
+  #elements .elements__list {
+    grid-template-columns: 1fr;
+  }
+  #shop .shop__cart__item__body {
+    padding: 20px;
+  }
+  #shop__slider #dots {
+   display: none;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .container {
+    width: 300px;
+  }
+}
