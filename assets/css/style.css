@@ -685,7 +685,7 @@ footer {
   #elements .elements__list {
     grid-template-columns: repeat(2, 1fr); }
   .reservation__wrapp {
-    padding: 100px 0 0 0; }
+    padding: 0; }
   #shop__slider #dots {
     right: 2%; }
   footer .footer {
@@ -794,7 +794,7 @@ footer {
   header nav .nav__list #logo a {
     font-size: 16px; }
   header nav .nav__list .nav__list__item a {
-    font-size: 12px; }
+    font-size: 10px; }
   header nav .nav__list .nav__list__item {
     margin: 0 4px; }
   #logo img {

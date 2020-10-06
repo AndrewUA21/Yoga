@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a426eb-951d-4cb3-9427-574f682d0cce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/aboutUs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/blog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/constant.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/elements.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/gallery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/reservation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/reservation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/reservation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/responsive.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="109">
-              <caret line="286" column="101" selection-start-line="286" selection-start-column="101" selection-end-line="286" selection-end-column="101" />
+              <caret line="286" column="100" selection-start-line="286" selection-start-column="100" selection-end-line="286" selection-end-column="100" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#article#1;n#body#0;n#html#0;n#!!top" />
@@ -46,74 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/sass/reservation.scss">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/sass/responsive.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/shopSlider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/slider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="25" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/sass/header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/sass/blog.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/sass/footer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/sass/shopslider.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/sass/fonts.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="239">
+              <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -127,6 +49,7 @@
       <find>mySlides</find>
       <find>btn__buy_now</find>
       <find>regu</find>
+      <find>ENTRY DATE: MON – FRI</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/assets/sass</dir>
@@ -146,12 +69,10 @@
         <option value="$PROJECT_DIR$/assets/sass/constant.scss" />
         <option value="$PROJECT_DIR$/assets/sass/elements.scss" />
         <option value="$PROJECT_DIR$/assets/css/reservation.css" />
-        <option value="$PROJECT_DIR$/assets/js/slider.js" />
         <option value="$PROJECT_DIR$/assets/js/slick.js" />
         <option value="$PROJECT_DIR$/assets/sass/slider.scss" />
         <option value="$PROJECT_DIR$/assets/sass/shopSlider.scss" />
         <option value="$PROJECT_DIR$/assets/sass/styleSlider.scss" />
-        <option value="$PROJECT_DIR$/assets/sass/responsive.scss" />
         <option value="$PROJECT_DIR$/assets/sass/shop.scss" />
         <option value="$PROJECT_DIR$/assets/js/hover.js" />
         <option value="$PROJECT_DIR$/../YOGA/index.html" />
@@ -165,11 +86,13 @@
         <option value="$PROJECT_DIR$/assets/sass/footer.scss" />
         <option value="$PROJECT_DIR$/assets/sass/reservation.scss" />
         <option value="$PROJECT_DIR$/assets/js/shopSlider.js" />
+        <option value="$PROJECT_DIR$/assets/js/slider.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/sass/responsive.scss" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="87" />
     <option name="y" value="105" />
     <option name="width" value="825" />
@@ -197,19 +120,7 @@
               <item name="yoga-club" type="b2602c69:ProjectViewProjectNode" />
               <item name="yoga-club" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yoga-club" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yoga-club" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yoga-club" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yoga-club" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,12 +163,12 @@
       <workItem from="1601892665773" duration="32727000" />
       <workItem from="1601932911767" duration="2000" />
       <workItem from="1601934967284" duration="12000" />
-      <workItem from="1601975340536" duration="3482000" />
+      <workItem from="1601975340536" duration="3730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64016000" />
+    <option name="totallyTimeSpent" value="64264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -380,13 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/responsive.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/shop.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -464,20 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/shopslider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/sass/blog.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -492,17 +382,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/reservation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="25" selection-end-column="53" />
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/shopslider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -513,10 +410,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/reservation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
-          <caret line="286" column="101" selection-start-line="286" selection-start-column="101" selection-end-line="286" selection-end-column="101" />
+          <caret line="286" column="100" selection-start-line="286" selection-start-column="100" selection-end-line="286" selection-end-column="100" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#article#1;n#body#0;n#html#0;n#!!top" />
@@ -525,6 +429,13 @@
             <element signature="n#article#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sass/responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
         </state>
       </provider>
     </entry>
